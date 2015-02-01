@@ -43,17 +43,30 @@ jQuery(document).ready(function($){
 
 
 		if ( desktop ) {
+
+			// hide mobile
+
+			// show dekstop
+
         	console.log('desktop');
-        	//
+        	
         	// detach current navigation
 			// navigationMobile.detach();
 			// add in new navigation and insert before the specified Div
 			// navigationDesktop.insertBefore('.cd-header-buttons');
+
 		} else {
+
+			// hide desktop
+
+			// show mobile
+
 			console.log('mobile');
-			//
+
 			// will need to play with where to insertbefore or after 
 			// navigationDesktop.detach();
+			//navigation.insertBefore( bottom of page);
+			//add mobile to top
 			// navigationMobile.insertAfter('.cd-main-content');
 		}
 	}
